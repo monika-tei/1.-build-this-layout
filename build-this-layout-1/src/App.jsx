@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
+import { Main } from "./components/Main.1";
 
 export default function App() {
   return (
@@ -9,15 +10,6 @@ export default function App() {
       <Navigation />
       <Main />
       <Footer />
-    </div>
-  );
-}
-
-function Main() {
-  return (
-    <div className="center-grid">
-      <section className="grid-left"></section>
-      <section className="grid-right"></section>
     </div>
   );
 }

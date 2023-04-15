@@ -6,3 +6,15 @@ At this point we do NOT care about the content
 
 So if you have created a component that does something, but the content in the assignment is different, it doesn't matter
 
+
+import CTA from "./CTA";
+
+export default function Left() {
+  return (
+    <section className="grid-left">
+      <h1>Blockchain finally made accessible </h1>
+      <h5>Unleash the potential of blockchain to making business secure, scalable and accessible</h5>
+      <CTA />
+    </section>
+  );
+}

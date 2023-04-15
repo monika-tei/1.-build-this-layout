@@ -54,6 +54,57 @@
 }
 
 /*Center grid*/
+.grid-outer {
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 0;
+  padding: 1rem;
+  gap: 20px;
+}
+
+.text-container {
+  /* background-color: palevioletred; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.grid-picture {
+  max-width: 100%;
+  height: auto;
+}
+
+.heading {
+  font-size: 4.209rem;
+  font-weight: 300;
+  color: var(--color-white);
+}
+
+.accent {
+  color: var(--color-blue);
+}
+
+.text-small {
+  font-size: 1.125rem;
+  font-weight: 300;
+  letter-spacing: 0.04rem;
+}
 
 /*Footer*/
 .Ft {
