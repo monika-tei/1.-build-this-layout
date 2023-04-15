@@ -1,0 +1,8 @@
+Build this layout, part 1
+
+Recreate some of this layout using only functional components
+
+At this point we do NOT care about the content
+
+So if you have created a component that does something, but the content in the assignment is different, it doesn't matter
+
