@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { Navigation } from "./components/Navigation";
+import { Footer } from "./components/Footer";
 
 export default function App() {
   return (
@@ -19,8 +20,4 @@ function Main() {
       <section className="grid-right"></section>
     </div>
   );
-}
-
-function Footer() {
-  return console.log("footer");
 }

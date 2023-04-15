@@ -56,3 +56,25 @@
 /*Center grid*/
 
 /*Footer*/
+.Ft {
+  padding: 0.5em 0;
+  border-top: 1px solid lightslategrey;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+footer a {
+  font-size: 0.833rem;
+  color: lightslategrey;
+}
+
+footer svg {
+  color: var(--color-white);
+  padding: 0 0.2rem;
+  visibility: hidden;
+}
